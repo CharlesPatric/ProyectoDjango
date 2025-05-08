@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Mi proyecto{% endblock  %}</title>
     {% load static %}
-    <link rel="stylesheet" href="{% static 'mi_aplicacion/style.css' %}">
+    <link rel="stylesheet" href="{% static 'mi_aplicacion/css/style.cs' %}">
+   
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'mi_aplicacion/css/images/atencion.ico' %} ">
+    <link rel="stylesheet" href="{% static 'mi_aplicacion/css/style.css' %}" type="text/css" media="all">
+    <link rel="stylesheet" href="{% static 'mi_aplicacion/css/flexslider.css' %}" type="text/css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,500,700' rel='stylesheet' type='text/css'>
+    <script src="{% static 'mi_aplicacion/js/jquery-1.8.0.min.js' %}"></script>
+    <!--[if lt IE 9]><script src="js/modernizr.custom.js"></script><![endif]-->
+    <script src="{% static 'mi_aplicacion/js/jquery.flexslider-min.js' %}"></script>
+    <script src="{% static 'mi_aplicacion/js/functions.js' %}"></script>
 <body>
     <header>
         <h1> mi proyecto Django</h1>

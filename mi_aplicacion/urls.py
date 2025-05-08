@@ -10,4 +10,6 @@ urlpatterns = [
     path('plani/<int:datos>',views.usando_otraplanilla),
     path('produ/',views.lista_productos),
     path('',views.inicio),
+    path('contactos/',views.contactos,name='contactos'),
+    path('estudiantes/',views.estudiantes, name='estu')
 ]
