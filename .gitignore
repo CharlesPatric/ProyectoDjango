@@ -1,0 +1,27 @@
+# Archivos de Python
+*.pyc__pycache__/
+__pycache__/
+*.py[cod]
+#Base de datos local
+db.sqlite3
+#entorno virtual
+env/
+entornov/
+*.venv/
+
+# Archivos de configuración de Django
+*.log
+*.sqlite3
+#variables de entorno
+
+.entornov
+
+# archivos estaticos y generados /staticfiles/  /media/
+#configuraciones de IDE .vscode/  .idea/
+
+# Archivos estáticos generados
+staticfiles/
+media/
+
+
+

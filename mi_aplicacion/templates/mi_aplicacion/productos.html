@@ -1,0 +1,28 @@
+{% extends "mi_aplicacion/base.html" %}
+{% block title %}Productos{% endblock title %}
+
+{% block content %}
+
+    <h1>Lista de productos</h1>
+    <ul>
+        {% for producto in productos %}
+            <li>nombre : {{producto.nombre}} </li>
+        {% endfor %}
+    </ul>
+    <h2>tabla de productos</h2>
+    <table border=1>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+        </tr>
+        {% for producto in productos %}
+        <tr>
+            <td>{{producto.nombre}}</td>
+            <td>{{producto.precio}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+{% endblock content %}
+
+</html>
